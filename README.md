@@ -2,6 +2,8 @@
 
 Deploy a single-node OpenSearch instance on Railway.
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new)
+
 ## Environment variables
 
 ```bash
@@ -18,3 +20,4 @@ Attach a Railway volume and mount to:
 
 - This template disables the security plugin for easier local and staging usage.
 - For production, enable security and set proper TLS/auth configuration.
+- JVM heap is tuned to `512m` by default for smaller plans.
