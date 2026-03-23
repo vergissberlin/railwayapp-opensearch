@@ -23,3 +23,6 @@ Attach a Railway volume and mount to:
 - This template disables the security plugin for easier local and staging usage.
 - For production, enable security and set proper TLS/auth configuration.
 - JVM heap is tuned to `512m` by default for smaller plans.
+
+<!-- footer -->
+[![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)](https://github.com/vergissberlin/railwayapp-opensearch)
