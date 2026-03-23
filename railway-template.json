@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-opensearch",
+  "repo": "vergissberlin/railwayapp-opensearch",
+  "displayName": "OpenSearch",
+  "publishedCode": "opensearch",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-opensearch/main/railwayapp-opensearch.svg",
+  "description": "Deploy a single-node OpenSearch instance on Railway.",
+  "workspaceAutomation": true
+}
