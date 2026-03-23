@@ -2,7 +2,7 @@
 builder = "DOCKERFILE"
 
 [deploy]
-healthcheckPath = "/_cluster/health"
-healthcheckTimeout = 300
+healthcheckPath = "/_cluster/health?wait_for_status=yellow&timeout=5s"
+healthcheckTimeout = 600
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
