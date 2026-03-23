@@ -1,0 +1,22 @@
+<svg width="1280" height="270" viewBox="0 0 1280 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenSearch header banner</title>
+  <desc id="desc">Flat gradient banner for OpenSearch template with software logo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1021"/>
+      <stop offset="0.55" stop-color="#131B3F"/>
+      <stop offset="1" stop-color="#1F174A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="270" rx="26" fill="url(#bg)"/>
+  <circle cx="1120" cy="68" r="34" fill="#4F46E5" opacity="0.33"/>
+  <circle cx="1185" cy="205" r="56" fill="#06B6D4" opacity="0.15"/>
+  
+      <rect x="64" y="60" width="152" height="152" rx="24" fill="#0B1228" opacity="0.92"/>
+      <image href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDA1RUI4IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGl0bGU+T3BlblNlYXJjaDwvdGl0bGU+CiAgPHBhdGggZD0iTTIzLjE1MTUgOC44MTI1YS44NDg0Ljg0ODQgMCAwIDAtLjg0ODQuODQ4NWMwIDYuOTgyLTUuNjYwMSAxMi42NDIxLTEyLjY0MjEgMTIuNjQyMWEuODQ4NS44NDg1IDAgMCAwIDAgMS42OTY5QzE3LjU4MDIgMjQgMjQgMTcuNTgwMiAyNCA5LjY2MWEuODQ4NS44NDg1IDAgMCAwLS44NDg1LS44NDg1Wm0tNS4xMjEgNS40Mzc1Yy44MTYtMS4zMzExIDEuNjA1MS0zLjEwNTggMS40NDk4LTUuNTkwNS0uMzIxNi01LjE0NjgtNC45ODMyLTkuMDUxMi05LjM4NTEtOC42MjgxQzguMzcyLjE5NzEgNi42MDI1IDEuNjAxNyA2Ljc1OTggNC4xMTc3Yy4wNjgzIDEuMDkzNC42MDM0IDEuNzM4NiAxLjQ3MyAyLjIzNDguODI3OS40NzIyIDEuODkxNC43NzEzIDMuMDk3IDEuMTEwNCAxLjQ1NjMuNDA5NiAzLjE0NTUuODY5NyA0LjQ0MzggMS44MjY1IDEuNTU2MSAxLjE0NjcgMi42MTk4IDIuNDc1OSAyLjI1NjkgNC45NjA2Wm0tMTYuNTYxLTlDLjY1MzUgNi41ODEtLjEzNTUgOC4zNTU4LjAxOTcgMTAuODQwNWMuMzIxNiA1LjE0NjggNC45ODMyIDkuMDUxMiA5LjM4NSA4LjYyODEgMS43MjMzLS4xNjU3IDMuNDkyNy0xLjU3MDMgMy4zMzU1LTQuMDg2My0uMDY4My0xLjA5MzQtLjYwMzQtMS43Mzg2LTEuNDczMS0yLjIzNDgtLjgyNzgtLjQ3MjItMS44OTEzLS43NzEzLTMuMDk2OS0xLjExMDQtMS40NTYzLS40MDk2LTMuMTQ1NS0uODY5Ny00LjQ0MzgtMS44MjY1LTEuNTU2MS0xLjE0NjctMi42MTk4LTIuNDc2LTIuMjU3LTQuOTYwNloiLz4KPC9zdmc+Cg==" x="84" y="80" width="112" height="112" preserveAspectRatio="xMidYMid meet"/>
+    
+  <text x="258" y="122" fill="#FFFFFF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="52" font-weight="800">OpenSearch</text>
+  <text x="258" y="168" fill="#B6C2FF" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="28" font-weight="500">Railway Template</text>
+  <rect x="258" y="188" width="286" height="44" rx="22" fill="#1C285D" stroke="#67E8F9" stroke-opacity="0.6"/>
+  <text x="284" y="216" fill="#CFFAFE" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="19" font-weight="700">Deploy on Railway</text>
+</svg>

@@ -1,6 +1,7 @@
 # OpenSearch
 
-![OpenSearch Icon](./railwayapp-opensearch.svg)
+![Template Header](./template-header.svg)
+
 
 Deploy a single-node OpenSearch instance on Railway.
 
