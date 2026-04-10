@@ -19,6 +19,8 @@ Attach a Railway volume and mount to:
 
 - `/usr/share/opensearch/data`
 
+The template enforces this with `requiredMountPath` in `railway.toml`.
+
 ## Notes
 
 - This template disables the security plugin for easier local and staging usage.
