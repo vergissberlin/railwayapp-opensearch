@@ -7,6 +7,16 @@ OpenSearch is an open-source, distributed search and analytics engine forked fro
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bNPyEG?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT"| Entry["railway-opensearch-entrypoint"]
+    Entry --> App["Container\nopensearch:3.7.0"]
+    App --> Volume[("Volume\n/usr/share/opensearch/data")]
+```
+
 ## Environment variables
 
 ```bash
