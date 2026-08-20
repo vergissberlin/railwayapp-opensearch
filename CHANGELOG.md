@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.1](https://github.com/vergissberlin/railwayapp-opensearch/compare/railwayapp-opensearch-v0.2.0...railwayapp-opensearch-v0.2.1) (2026-08-20)
+
+
+### Documentation
+
+* refresh shared template footer badges ([00e3834](https://github.com/vergissberlin/railwayapp-opensearch/commit/00e38341e9ea9269073d0147b4f01e33ba2b1f20))
+
+
+### Chores
+
+* update shared template footer ([5b4bd8f](https://github.com/vergissberlin/railwayapp-opensearch/commit/5b4bd8fc4ca6ff5fc16941278235ee074bad7a8e))
+* update shared template footer ([76ebf31](https://github.com/vergissberlin/railwayapp-opensearch/commit/76ebf312c8a4ae9a6d32cc53353d214c7f10fc48))
+
 ## [0.2.0](https://github.com/vergissberlin/railwayapp-opensearch/compare/railwayapp-opensearch-v0.1.0...railwayapp-opensearch-v0.2.0) (2026-08-14)
 
 
