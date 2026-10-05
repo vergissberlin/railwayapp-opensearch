@@ -2,8 +2,8 @@
 builder = "DOCKERFILE"
 
 [deploy]
-healthcheckPath = "/_cluster/health?wait_for_status=yellow&timeout=5s"
-healthcheckTimeout = 600
+# The secured REST API requires authenticated HTTPS. Railway's plain HTTP
+# healthcheck cannot query it; check cluster readiness with a TLS-aware client.
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
 requiredMountPath = "/usr/share/opensearch/data"

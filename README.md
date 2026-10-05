@@ -35,6 +35,9 @@ The template enforces this with `requiredMountPath` in `railway.toml`.
 
 ## Notes
 
+- The published template generates the initial administrator password and attaches the data volume. Railway's unauthenticated HTTP healthcheck is intentionally unset; use an authenticated TLS-aware client to query `/_cluster/health`.
+- **TLS configuration is still required before first boot.** The image disables the upstream demo installer, so a generated password alone does not provide certificates or security configuration. Supply a complete `opensearch.yml`, node certificates and trusted CA following [OpenSearch's TLS configuration guide](https://docs.opensearch.org/latest/security/configuration/tls/). This template is not a complete one-click production installation yet.
+
 - The security plugin is enabled by default (no `DISABLE_SECURITY_PLUGIN` override); admin auth is required to access the cluster.
 - For production, use a strong `OPENSEARCH_INITIAL_ADMIN_PASSWORD` and configure TLS as needed beyond the defaults.
 - JVM heap is tuned to `512m` by default for smaller plans.
