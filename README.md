@@ -42,6 +42,10 @@ The template enforces this with `requiredMountPath` in `railway.toml`.
 - For production, use a strong `OPENSEARCH_INITIAL_ADMIN_PASSWORD` and configure TLS as needed beyond the defaults.
 - JVM heap is tuned to `512m` by default for smaller plans.
 
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/open-search-958168b4).
+
 <!-- footer -->
 ---
 
