@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.2](https://github.com/vergissberlin/railwayapp-opensearch/compare/railwayapp-opensearch-v0.2.1...railwayapp-opensearch-v0.2.2) (2026-10-28)
+
+
+### Documentation
+
+* fix Railway deploy button link and add template forum link ([#15](https://github.com/vergissberlin/railwayapp-opensearch/issues/15)) ([39531d7](https://github.com/vergissberlin/railwayapp-opensearch/commit/39531d72ef6005f22861c6cf080ef6a953b377e6))
+
+
+### Chores
+
+* **deps:** update opensearchproject/opensearch docker tag to v3.9.0 ([#13](https://github.com/vergissberlin/railwayapp-opensearch/issues/13)) ([e945a05](https://github.com/vergissberlin/railwayapp-opensearch/commit/e945a05ee58d3b446aad25f00e61e8fb9aa84784))
+
 ## [0.2.1](https://github.com/vergissberlin/railwayapp-opensearch/compare/railwayapp-opensearch-v0.2.0...railwayapp-opensearch-v0.2.1) (2026-10-06)
 
 
