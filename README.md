@@ -5,7 +5,7 @@
 
 OpenSearch is an open-source, distributed search and analytics engine forked from Elasticsearch, widely used for full-text search, log analytics, and observability dashboards. This Railway template deploys a single-node OpenSearch instance pre-configured with the security plugin enabled, a tuned JVM heap size for smaller Railway plans, and persistent storage support via a mounted volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bNPyEG?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/opensearch?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## 🏗️ Architecture
 
